@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Prepare') {
+    stage('Execute shell script') {
       steps {
         echo("hello")
-        sh 'script.sh'
+        sh './script.sh'
         sh 'ls -ltrh'
       }
     }
