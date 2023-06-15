@@ -4,8 +4,9 @@ pipeline {
     stage('Execute shell script') {
       steps {
         echo("hello")
-        sh './script.sh'
         sh 'ls -ltrh'
+        sh './script.sh'
+      
       }
     }
     stage('Run') {
