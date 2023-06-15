@@ -4,7 +4,7 @@ pipeline {
     stage('Execute shell script') {
       steps {
         echo("hello")
-        sh 'ls -ltrh'
+        sudo sh 'ls -ltrh'
         sh './script.sh'
       
       }
