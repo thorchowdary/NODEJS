@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo("hello")
         sh 'ls -ltrh'
-        sh 'sudo ./script.sh'
+        sh 'bin ./script.sh'
       
       }
     }
