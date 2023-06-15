@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -fsSL https://rpm.nodesource.com/setup_14.x | sudo bash - sudo yum install -y nodejs
+curl -fsSL https://rpm.nodesource.com/setup_14.x |bash - yum install -y nodejs
