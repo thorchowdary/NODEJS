@@ -3,12 +3,13 @@ pipeline {
   stages {
     stage('Prepare') {
       steps {
-        
+        echo("hello")
+        sh 'ls -ltrh'
       }
     }
     stage('Run') {
       steps {
-        
+        sh 'ls -ltrh'
       }
     }
 
