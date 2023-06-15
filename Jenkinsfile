@@ -4,6 +4,7 @@ pipeline {
     stage('Prepare') {
       steps {
         echo("hello")
+        sh 'script.sh'
         sh 'ls -ltrh'
       }
     }
